@@ -1,0 +1,36 @@
+
+// Top Header
+
+header.top_header  {
+
+    .add-to-card {
+
+        button {
+            border: transparent;
+            background-color: #2DA3E2;
+            padding: 12px;
+            border-radius: 25px;
+            color: white;
+            transition: all 0.5s ease;
+            margin-top: 25px;
+        }
+          
+        button:hover,
+        button:active,
+        button:focus {
+            background-color: #069cec;
+        }
+
+    }
+
+    .add-to-card button.btn-ux {
+        background-color: #80401A;
+        transition: all 0.4s ease;
+    }
+      
+    .add-to-card button.btn-ux:hover {
+        background-color: #582203;
+    }    
+
+}
+

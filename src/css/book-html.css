@@ -1,0 +1,64 @@
+
+/***Style page HTML5-BOOK ****/
+
+header.top_header .add-to-card button.last-book {
+    background-color: #f16529;
+    transition: all 0.5s ease 0s;
+}
+
+header.top_header .add-to-card button.last-book:hover,
+header.top_header .add-to-card button.last-book:active,
+header.top_header .add-to-card button.last-book:focus {
+    background-color: #be3900;
+}
+
+section.About-The-Book .paragh__book p.last-book {
+    border-color: #f16529;
+}
+
+section.last-book {
+    background-color: #be3900;
+}
+
+section.content-of-book #carouselContentBook .carousel-indicators li.last__slide {
+    background-color: #f16529;
+}
+
+section.Request-book .last-book {
+    border-color: #f16529;
+}
+
+section.Request-book .gold-package button.last-book {
+    background-color: #f16529;
+    transition: all 0.5s ease;
+}
+
+section.Request-book .gold-package button.last-book:hover,
+section.Request-book .gold-package button.last-book:active,
+section.Request-book .gold-package button.last-book:active {
+    background-color: #be3900;
+}
+
+section.FormContact .informations-contact span.last-book svg, 
+section.FormContact form .form-group label span.last-book svg {
+    color: #f16529;
+}
+
+section.FormContact form .form-group button.last-book {
+    background-color: #f16529;
+    transition: all 0.5s ease;
+}
+
+section.FormContact form .form-group button.last-book:hover,
+section.FormContact form .form-group button.last-book:active,
+section.FormContact form .form-group button.last-book:focus {
+    background-color: #be3900;
+}
+
+footer.footer__last-book {
+    background-color: #be3900;
+}
+
+footer.footer_down .copyright p a.last-book {
+    color: black;
+}

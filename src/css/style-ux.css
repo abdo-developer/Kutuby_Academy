@@ -1,0 +1,65 @@
+
+/************
+********************
+***************************
+
+Style page Book-UX
+
+************
+********************
+****************************/
+
+header.top_header .add-to-card button.btn-ux {
+    background-color: #80401A;
+    transition: all 0.4s ease;
+}
+
+header.top_header .add-to-card button.btn-ux:hover {
+    background-color:  #582203;
+}
+
+section.About-The-Book .paragh__book p.book-ux {
+    border: 3px inset #80401A;
+}
+
+section.books__ux {
+    background-color: #582203;
+}
+
+section.content-of-book #carouselContentBook .carousel-indicators li.slide__content {
+    background-color: #80401A;
+}
+
+section.Request-book .gold-package button.btn-ux {
+    background-color: #80401A;
+    transition: all 0.5s ease;
+}
+
+section.Request-book .gold-package button.btn-ux:hover {
+    background-color: #582203;
+}
+
+section.Request-book .anthor-package {
+    border: 3px inset #582203;
+}
+
+section.FormContact .informations-contact span.font-icon svg, section.FormContact form .form-group label span.icon__ux svg {
+    color: #80401A;
+}
+
+section.FormContact form .form-group button.btn__ux {
+    background-color: #80401A;
+    transition: all 0.3s ease 0s;
+}
+
+section.FormContact form .form-group button.btn__ux:hover {
+    background-color: #582203;
+}
+
+footer.footer__ux {
+    background-color: #80401A;
+}
+
+footer.footer_down .copyright p.copyright-BUX {
+    color: white;
+}

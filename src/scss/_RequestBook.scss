@@ -1,0 +1,80 @@
+
+/// ______ RequestBook ____ 
+
+// متغيرات الألــوان 
+
+$base-color: orange;
+$color-one: #c6f4fe;
+$color-two:  #92e8fc;
+$color-three: black;
+$color-four: antiquewhite;
+$color-five: white;
+$color-six: #d8d8d8;
+$color-seven: #2DA3E2;
+$color-eight: #069cec;
+$color-nine: teal;
+$color-ten: wheat;
+$color-elvven: #80401A;
+$color-twelve: #582203;
+$color-thereed: #004141;
+$border-dark-one: rgba(teal, 0.9);
+
+///////
+
+section.Request-book {
+
+    .gold-package {
+        border: 2px inset $color-nine;
+        padding: 20px;
+        margin-top: 18px;
+    }
+
+    .gold-package {
+
+        button.btn-package {
+            border: transparent;
+            background-color: $color-nine;
+            padding: 15px;
+            color: $color-five;
+            border-radius: 25px;
+            transition: all 0.5s ease 0s;
+        }
+          
+        button.btn-package:hover,
+        button.btn-package:active,
+        button.btn-package:focus {
+            background-color: $color-thereed;
+        }
+
+    }
+
+    .gold-package button.btn-ux {
+        background-color: $color-elvven;
+        transition: all 0.5s ease;
+    }
+      
+    .gold-package button.btn-ux:hover {
+        background-color: $color-twelve;
+    }
+      
+    .anthor-package {
+        border: 3px inset $color-twelve;
+    }
+
+    
+    .last-book {
+        border-color: #f16529;
+    }
+
+    section.Request-book .gold-package button.last-book {
+        background-color: #f16529;
+        transition: all 0.5s ease;
+    }
+
+    .gold-package button.last-book:hover,
+    .gold-package button.last-book:active,
+    .gold-package button.last-book:active {
+        background-color: #be3900;
+    }
+
+}

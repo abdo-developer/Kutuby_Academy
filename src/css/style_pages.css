@@ -1,0 +1,605 @@
+
+/****
+
+File old-css 
+
+***/
+
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-family: "JF Flat Regular";
+    font-style: normal;
+    font-weight: bold;
+}
+  
+  body {
+    font-family: "JF Flat Regular" !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+  
+  header nav.navbar img {
+    width: 100%;
+}
+  
+  header nav.navbar button {
+    background-color: orange;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+  
+  header nav.navbar button svg {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    line-height: 35p;
+    height: 25px;
+    margin-right: -4px;
+}
+  
+  header nav.navbar ul li {
+    margin-right: 8px;
+    transition: all 0.3s ease;
+}
+  
+  header nav.navbar ul li.active {
+    border-bottom: 2px solid orangered;
+}
+  
+  header nav.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+  header nav.navbar ul li a:hover,
+  header nav.navbar ul li a:active,
+  header nav.navbar ul li a:focus {
+    background-color: #c6f4fe;
+}
+  
+  header .title_text h5.custom-heading {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 45px;
+    font-weight: bold;
+}
+  
+  header .title_text p.text-marketing {
+    text-align: center;
+    font-size: 16px;
+    margin: 45px;
+    font-weight: bold !important;
+}
+  
+  button.custom-btn {
+    background-color: #c6f4fe;
+    padding: 15px;
+    border: transparent;
+    border-radius: 25px;
+    margin-right: 27%;
+    transition: all 0.5s ease;
+}
+  
+  button.custom-btn:hover,
+  button.custom-btn:active,
+  button.custom-btn :focus {
+    background-color: #92e8fc;
+}
+  
+  button.custom-btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+  
+  header .title_text button.custom-btn a span.icon-img img {
+    height: 25px;
+}
+  
+  header .bg-image img {
+    height: 390px;
+    margin-top: -15px;
+}
+
+header .bg-image img.book-Html5-last {
+  height: 300px;
+  margin-top: 30px;
+  margin-right: 15%;
+}
+  
+  .title_section h4 {
+    font-size: 24px;
+    margin: 35px 0;
+}
+  
+  .bar {
+    height: 2px;
+    width: 155px;
+    background-color: orange;
+    margin: -20px auto 30px;
+}
+  
+  section.section_DarAlNasher .DefinitionDarA-nasher p {
+    font-size: 17px;
+    text-align: justify;
+    border: 1px solid orange;
+    padding: 14px;
+    border-width: 2px;
+    border-style: inset;
+}
+  
+  section.section_FeaturesKutubk {
+    background-color: #c6f4fe;
+    padding: 22px;
+    margin: 25px 0;
+}
+  
+  section.section_FeaturesKutubk .text-imageFeatures .image_Featured img {
+    height: 75px;
+    margin-bottom: 25px;
+}
+  
+  section.section_FeaturesKutubk .text-imageFeatures p.SmallText {
+    font-size: 17px;
+}
+  
+  section.FormContact .title-contact h4 {
+    font-size: 22px;
+    margin: 20px 0;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    padding-bottom: 12px;
+    margin-right: 33%;
+}
+  
+  section.FormContact form .form-group label {
+    font-size: 18px;
+}
+  
+  section.FormContact form .form-group label svg {
+    color: orangered;
+    margin-left: 5px;
+}
+  
+  section.FormContact form .form-group .form-control {
+    text-align: right;
+    font-size: 15px;
+}
+  
+  button.custom-btn svg {
+    color: orangered;
+    margin-right: 10px;
+    font-size: 20px;
+}
+  
+  section.FormContact .informations-contact {
+    margin-right: 25px;
+    margin-top: 12px;
+}
+  
+  section.FormContact .icons-informations svg {
+    font-size: 24px;
+    margin-left: 14px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: orangered;
+}
+  
+  svg.svg-inline--fa.fa-mobile-alt.fa-w-10 {
+    margin-right: 4px;
+}
+  
+  section.FormContact .icons-informations span.content {
+    font-size: 16px;
+    color: black;
+}
+  
+  section.FormContact .icons-informations a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+  
+  section.FormContact .icons-informations a:hover,
+  section.FormContact .icons-informations a:active,
+  section.FormContact .icons-informations a:focus {
+    color: orange;
+}
+  
+  section.last-footer {
+    background-image: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 14px;
+}
+  
+  section.last-footer .title-LastFooter {
+    font-size: 22px;
+    color: antiquewhite;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    padding-bottom: 12px;
+    margin: 20px 33% 20px 0
+}
+  
+  section.last-footer .latest-tweets p.text-tweet {
+    color: white;
+}
+  section.last-footer .latest-tweets p.text-tweet svg {
+    color: orangered;
+    font-size: 18px;
+}
+  
+  section.last-footer .NewsLatters p {
+    color: white;
+    font-size: 17px;
+}
+  
+  section.last-footer .FormNewsLetters input {
+    height: 45px;
+    width: 260px;
+    text-align: right;
+    font-size: 15px;
+    margin-right: 90px;
+    border-radius: 0;
+    background-color: #d8d8d8;
+}
+  
+  section.last-footer .FormNewsLetters input:focus,
+  section.last-footer .FormNewsLetters input:active {
+    border-color: orange;
+}
+  
+  section.last-footer .FormNewsLetters button {
+    border: transparent;
+    background-color: orange;
+    transition: all 0.2s ease;
+}
+  
+  section.last-footer .FormNewsLetters button:hover,
+  section.last-footer .FormNewsLetters button:active,
+  section.last-footer .FormNewsLetters button:focus {
+    background-color: orangered;
+}
+  
+  footer.footer_down {
+    background-color: #c6f4fe;
+    padding-top: 8px;
+}
+  
+  footer.footer_down .copyright p {
+    font-size: 16px;
+    color: black;
+}
+  
+  footer.footer_down .copyright p a {
+    text-decoration: none;
+    color: orangered;
+    transition: all 0.2s ease;
+}
+  
+  footer.footer_down .copyright p a:hover,
+  footer.footer_down .copyright p a:active,
+  footer.footer_down .copyright p a:focus {
+    color: orange;
+}
+  
+  footer.footer_down .icons-media ul li {
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+  
+  footer.footer_down .icons-media ul li:active,
+  footer.footer_down .icons-media ul li:hover,
+  footer.footer_down .icons-media ul li:focus {
+    background-color: orangered;
+}
+  
+  footer.footer_down .icons-media ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease;
+}
+  
+  footer.footer_down .icons-media ul li a:hover,
+  footer.footer_down .icons-media ul li a:active,
+  footer.footer_down .icons-media ul li a:focus {
+    color: white;
+}
+  
+  footer.footer_down .icons-media ul li a svg {
+    font-size: 18px;
+}
+  
+  
+  /************
+  *************
+  ***********************
+  
+  RESPONSICE PAGE HOME (INDEX.HTML)
+  
+  ************
+  ****************
+  ***********************/
+  
+  @media (min-width: 320px) and (max-width: 575.98px) {
+    
+    header nav.navbar ul li.active {
+      border-bottom: 1px solid #ff4500;
+      width: 65px;
+    }
+  
+    header .title_text h5.custom-heading {
+      text-align: center;
+      line-height: 24px;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 30px;
+    }
+  
+    header .title_text p.text-marketing {
+      text-align: center;
+      font-size: 14px;
+      margin: 35px;
+    }
+  
+    header .bg-image img {
+      height: 190px;
+    }
+  
+    header button.custom-btn {
+      margin-right: 25.5%;
+    }
+  
+    header .bg-image img {
+      height: 190px;
+      margin-top: 0;
+      margin-right: -15px;
+    }
+
+    header .bg-image img.book-Html5-last {
+      height: 185px;
+      margin-right: 18%;
+    }
+
+    button.custom-btn {
+      margin-right: 23.5%;
+    }
+  
+    .bg-image img.freelancer {
+      margin-right: 10%;
+    }
+  
+    .title_section h4 {
+      font-size: 20px;
+      margin: 35px 0;
+    }
+  
+    .SectionPublish .card {
+      margin-bottom: 30px;
+    }
+  
+    section.FormContact .title-contact h4 {
+      font-size: 20px;
+      margin: 20px 28% 20px 0;
+    }
+  
+    section.last-footer .title-LastFooter {
+      font-size: 20px;
+      margin: 20px 8% 20px 0;
+    }
+  
+    section.last-footer .latest-tweets p.text-tweet {
+      font-size: 15px;
+    }
+  
+    section.last-footer .NewsLatters p {
+      font-size: 15px;
+    }
+  
+    .Map iframe {
+      width: 100%;
+      text-align: center;
+    }
+  
+    section.last-footer .FormNewsLetters input {
+      height: 40px;
+      width: 180px;
+      font-size: 12px;
+      margin-right: 0;
+    }
+  
+    button.btn-sub img {
+      display: none;
+    }
+  
+      footer.footer_down .copyright p {
+      font-size: 13px;
+      text-align: center;
+    }
+  
+    ul.list-inline {
+      text-align: center;
+    } 
+  
+}
+  
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+  
+    header nav.navbar ul li.active {
+      border-bottom: 1px solid #ff4500;
+      width: 65px;
+    }
+  
+    header .bg-image img {
+      height: 250px;
+      margin-top: 0;
+      margin-right: 62px;
+    }
+
+    header .bg-image img.book-Html5-last {
+      margin-right: 22%;
+    }
+  
+    .bg-image img.freelancer {
+      margin-right: 21%;
+    }
+  
+    section.FormContact .title-contact h4 {
+      margin: 20px 36.5% 20px 0;
+    }
+  
+    .SectionPublish .card {
+      margin-bottom: 30px;
+    }
+  
+    .Map {
+      text-align: center;
+    }
+  
+      footer.footer_down .copyright p {
+      font-size: 15px;
+      text-align: center;
+    }
+  
+    ul.list-inline {
+      text-align: center;
+    } 
+  
+    section.last-footer .title-LastFooter {
+      margin: 20px 25% 20px 0;
+    }
+  
+    section.last-footer .FormNewsLetters input {
+      margin-right: 75px;
+    }
+
+    button.custom-btn {
+      margin-right: 37%;
+    }
+  
+}
+  
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+  
+    header .bg-image img {
+      height: 315px;
+      margin-top: 5px;
+      margin-right: 90px;
+    }
+
+    header .bg-image img.book-Html5-last {
+      margin-right: 26.5%;
+    }
+  
+    .bg-image img.freelancer {
+      margin-right: 23%;
+    }
+  
+    section.FormContact .title-contact h4 {
+      margin: 20px 39% 20px 0;
+    } 
+  
+    button.custom-btn.BtnForMobile {
+      margin-right: 42.5%;
+    }
+  
+    .SectionPublish .card {
+      margin-bottom: 30px;
+    }
+  
+    .FormContact #ContactUs {
+      text-align: center;
+      margin: 18px 0;
+    }
+  
+    .Map {
+      text-align: center;
+    }
+  
+    section.last-footer .FormNewsLetters input {
+      margin-right: 158px;
+    }
+  
+    footer.footer_down .copyright p {
+      font-size: 15px;
+      text-align: center;
+    }
+  
+    ul.list-inline {
+      text-align: center;
+    }
+  
+    header nav.navbar ul li.active {
+      border-bottom: 1px solid #ff4500;
+      width: 65px;
+    }
+  
+    header nav.navbar ul li a:active,
+    header nav.navbar ul li a:hover,
+    header nav.navbar ul li a:focus {
+      background-color: transparent;
+    }
+
+    button.custom-btn {
+      margin-right: 40%;
+    }
+  
+}
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+    header .title_text p.text-marketing { 
+      font-size: 15px;
+    }
+  
+    button.custom-btn {
+      padding: 10px;
+      font-size: 15px;
+    }
+  
+    header .title_text button.custom-btn a span.icon-img img {
+      height: 20px;
+    }
+  
+    header .bg-image img {
+      height: 300px;
+    }
+
+    header .bg-image img.book-Html5-last {
+      height: 280px;
+    }
+  
+    section.last-footer .FormNewsLetters input {
+      width: 225px;
+      margin-right: 55px;
+    }
+  
+    section.last-footer .NewsLatters p {
+      font-size: 16px;
+    }
+
+    p.About-the-book.text-center {
+      font-size: 15px;
+    }
+  
+}
+  
+  @media (min-width: 1200px) { 
+  
+  /*** Responsive page Goood ! ***/
+  
+}

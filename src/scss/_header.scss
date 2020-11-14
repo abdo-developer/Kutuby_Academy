@@ -1,0 +1,121 @@
+// ____  page
+
+header {
+
+    nav.navbar img {
+        width: 100%;
+    }
+
+    nav.navbar {
+
+        button {
+            background-color: orange;
+            height: 35px;
+            width: 35px;
+            line-height: 35px;
+        }
+          
+        button svg {
+            text-align: center;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            line-height: 35p;
+            height: 25px;
+            margin-right: -4px;
+        }
+          
+        ul li {
+            margin-right: 8px;
+            transition: all 0.3s ease;
+        }
+          
+        ul li.active {
+            border-bottom: 2px solid orangered;
+        }
+          
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+          
+        ul li a:hover,
+        ul li a:active,
+        ul li a:focus {
+            background-color: #c6f4fe;
+        }
+
+    }
+      
+    
+    .title_text {
+
+        h5.custom-heading {
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 45px;
+            font-weight: bold;
+        }
+          
+        p.text-marketing {
+            text-align: center;
+            font-size: 16px;
+            margin: 45px;
+            font-weight: bold !important;
+        }
+
+    }
+      
+      button.custom-btn {
+        background-color: #c6f4fe;
+        padding: 15px;
+        border: transparent;
+        border-radius: 25px;
+        margin-right: 37.5%;
+        transition: all 0.5s ease;
+    }
+      
+      button.custom-btn:hover,
+      button.custom-btn:active,
+      button.custom-btn :focus {
+        background-color: #92e8fc;
+    }
+      
+      button.custom-btn a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+      
+        .title_text button.custom-btn a span.icon-img img {
+        height: 25px;
+    }
+      
+        .bg-image img {
+        height: 390px;
+        margin-top: -15px;
+    }
+
+}
+
+header.top_header {
+
+    .add-to-card button.last-book {
+        background-color: #f16529;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .add-to-card button.last-book:hover,
+    .add-to-card button.last-book:active,
+    .add-to-card button.last-book:focus {
+        background-color: #be3900;
+    }    
+
+}
+
+
+

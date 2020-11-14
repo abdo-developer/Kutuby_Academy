@@ -1,0 +1,498 @@
+
+// استدعاء الملفات المكملة 
+
+@import './header';
+@import './TopHeader';
+@import './features';
+@import './FeaturedBook';
+@import './RequestBook';
+@import './FormContact';
+@import './LastFooter';
+@import './footer';
+
+// متغيرات الألــوان 
+
+$base-color: orange;
+$color-one: #c6f4fe;
+$color-two:  #92e8fc;
+$color-three: black;
+$color-four: antiquewhite;
+$color-five: white;
+$color-six: #d8d8d8;
+$color-seven: #2DA3E2;
+$color-eight: #069cec;
+$color-nine: teal;
+$color-ten: wheat;
+$color-elvven: #80401A;
+$color-twelve: #582203;
+$color-thereed: #004141;
+$color-fourteen: #f16529;
+$color-fifteen: #be3900;
+$border-dark-one: rgba(teal, 0.9);
+
+/// colo page Home or Index.html
+
+header nav.navbar button {
+    background-color: $base-color;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+
+header nav.navbar ul li.active {
+    border-bottom: 2px solid $base-color;
+}
+  
+  header nav.navbar ul li a:hover,
+  header nav.navbar ul li a:active,
+  header nav.navbar ul li a:focus {
+    background-color: $color-one;
+}
+
+  button.custom-btn {
+    background-color: $color-one;
+    padding: 15px;
+    border: transparent;
+    border-radius: 25px;
+    margin-right: 37.5%;
+    transition: all 0.5s ease;
+}
+  
+  button.custom-btn:hover,
+  button.custom-btn:active,
+  button.custom-btn :focus {
+    background-color: $color-two;
+}
+  
+  button.custom-btn a {
+    text-decoration: none;
+    color:$color-three;
+    font-weight: bolder;
+}
+
+  .bar {
+    height: 2px;
+    width: 155px;
+    background-color: $base-color;
+    margin: -20px auto 30px;
+}
+  
+  section.section_DarAlNasher .DefinitionDarA-nasher p {
+    font-size: 17px;
+    text-align: justify;
+    border: 1px solid $base-color;
+    padding: 14px;
+    border-width: 2px;
+    border-style: inset;
+}
+  
+  section.section_FeaturesKutubk {
+    background-color: $color-one;
+    padding: 22px;
+    margin: 25px 0;
+}
+
+  section.FormContact .title-contact h4 {
+    font-size: 22px;
+    margin: 20px 0;
+    border-bottom: 2px solid $base-color;
+    display: inline-block;
+    padding-bottom: 12px;
+    margin-right: 33%;
+}
+
+  section.FormContact form .form-group label svg {
+    color: $base-color;
+    margin-left: 5px;
+}
+
+  button.custom-btn svg {
+    color: $base-color;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+  section.FormContact .icons-informations svg {
+    font-size: 24px;
+    margin-left: 14px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: $base-color;
+}
+
+  section.FormContact .icons-informations span.content {
+    font-size: 16px;
+    color:$color-three;
+}
+  
+  section.FormContact .icons-informations a {
+    text-decoration: none;
+    color:$color-three;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+  
+  section.FormContact .icons-informations a:hover,
+  section.FormContact .icons-informations a:active,
+  section.FormContact .icons-informations a:focus {
+    color: $base-color;
+}
+
+
+  section.last-footer .title-LastFooter {
+    font-size: 22px;
+    color: $color-four;
+    border-bottom: 2px solid $base-color;
+    display: inline-block;
+    padding-bottom: 12px;
+    margin: 20px 33% 20px 0
+}
+  
+  section.last-footer .latest-tweets p.text-tweet {
+    color: $color-five;
+}
+  section.last-footer .latest-tweets p.text-tweet svg {
+    color: $base-color;
+    font-size: 18px;
+}
+  
+  section.last-footer .NewsLatters p {
+    color: $color-five;
+    font-size: 17px;
+}
+  
+  section.last-footer .FormNewsLetters input {
+    height: 45px;
+    width: 260px;
+    text-align: right;
+    font-size: 15px;
+    margin-right: 90px;
+    border-radius: 0;
+    background-color: $color-six;
+}
+  
+  section.last-footer .FormNewsLetters input:focus,
+  section.last-footer .FormNewsLetters input:active {
+    border-color: $base-color;
+}
+  
+  section.last-footer .FormNewsLetters button {
+    border: transparent;
+    background-color: $base-color;
+    transition: all 0.2s ease;
+}
+  
+  section.last-footer .FormNewsLetters button:hover,
+  section.last-footer .FormNewsLetters button:active,
+  section.last-footer .FormNewsLetters button:focus {
+    background-color: $base-color;
+}
+  
+  footer.footer_down {
+    background-color: $color-one;
+    padding-top: 8px;
+}
+  
+  footer.footer_down .copyright p {
+    font-size: 16px;
+    color:$color-three;
+}
+  
+  footer.footer_down .copyright p a {
+    text-decoration: none;
+    color: $base-color;
+    transition: all 0.2s ease;
+}
+  
+  footer.footer_down .copyright p a:hover,
+  footer.footer_down .copyright p a:active,
+  footer.footer_down .copyright p a:focus {
+    color: $base-color;
+}
+  
+  footer.footer_down .icons-media ul li {
+    background-color: $base-color;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+  
+  footer.footer_down .icons-media ul li:active,
+  footer.footer_down .icons-media ul li:hover,
+  footer.footer_down .icons-media ul li:focus {
+    background-color: $base-color;
+}
+  
+  footer.footer_down .icons-media ul li a {
+    text-decoration: none;
+    color:$color-three;
+    transition: all 0.4s ease;
+}
+  
+  footer.footer_down .icons-media ul li a:hover,
+  footer.footer_down .icons-media ul li a:active,
+  footer.footer_down .icons-media ul li a:focus {
+    color: $color-five;
+}
+  
+/// color page book Freelancer or Way Freelancer.html 
+
+header.top_header .add-to-card button {
+    border: transparent;
+    background-color:$color-seven;
+    padding: 12px;
+    border-radius: 25px;
+    color: $color-five;
+    transition: all 0.5s ease;
+    margin-top: 25px;
+}
+  
+  header.top_header .add-to-card button:hover,
+  header.top_header .add-to-card button:active,
+  header.top_header .add-to-card button:focus {
+    background-color: $color-eight;
+}
+
+
+.bar_2x {
+    width: 100px;
+    height: 2px;
+    margin: 15px auto 20px;
+    background-color: $color-nine;
+}
+  
+section.About-The-Book .paragh__book p {
+    font-size: 16px;
+    text-align: justify;
+    border: 3px inset $color-eight;
+    padding: 12px;
+}
+
+section.Featured-Book {
+    background-color:$color-seven;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.cst-title {
+    color: $color-five;
+}
+
+.x-Bar {
+    background-color: $color-five;
+}
+
+section.Featured-Book .small-text p {
+    font-size: 18px;
+    color: $color-five;
+}
+
+section.content-of-book #carouselContentBook .carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    background-color: $color-nine; 
+}
+
+
+section.Request-book .gold-package {
+    border: 2px inset $color-nine;
+    padding: 20px;
+    margin-top: 18px;
+}
+
+section.Request-book .gold-package button.btn-package {
+    border: transparent;
+    background-color: $color-nine;
+    padding: 15px;
+    color: $color-five;
+    border-radius: 25px;
+    transition: all 0.5s ease 0s;
+}
+
+
+section.Request-book .gold-package button.btn-package:hover,
+section.Request-book .gold-package button.btn-package:active,
+section.Request-book .gold-package button.btn-package:focus {
+    background-color: rgb(0, 65, 65);
+}
+
+h5.custom-heading.text-center {
+    margin-top: 46px;
+}
+
+section.FormContact .title-contact h5 {
+    border-bottom: 2px solid $color-nine;
+    margin: 30px 0;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 20px 33% 20px 0;
+}
+
+section.FormContact .title-contact h4.title2x {
+    border-bottom: 2px solid $color-nine;
+}
+
+section.FormContact form .form-group label span svg {
+    color: $color-nine;
+}
+
+section.FormContact .informations-contact span.font-icon svg {
+    color: $color-nine;
+}
+
+section.FormContact form .form-group button.BtnLanding {
+    background-color: $color-nine;
+    color: $color-five;
+    transition: all 0.5s ease 0s;
+}
+
+section.FormContact form .form-group button.BtnLanding:hover,
+section.FormContact form .form-group button.BtnLanding:active,
+section.FormContact form .form-group button.BtnLanding:focus {
+    background-color: $border-dark-one;
+}
+
+section.FormContact form .form-group button.BtnLanding svg {
+    color: $color-ten;
+}
+
+footer.footer_down#style2x {
+    background-color: $color-nine;
+    padding: 5px;
+}
+
+footer.footer_down#style2x  p.para-copyright {
+    color: $color-five;
+}
+
+footer.footer_down#style2x  p.para-copyright a.LinkToHome {
+    color: $color-ten;
+}
+
+
+/// Color page book-ux 
+
+header.top_header .add-to-card button.btn-ux {
+    background-color: $color-elvven;
+    transition: all 0.4s ease;
+}
+
+header.top_header .add-to-card button.btn-ux:hover {
+    background-color:  $color-twelve;
+}
+
+section.About-The-Book .paragh__book p.book-ux {
+    border: 3px inset $color-elvven;
+}
+
+section.books__ux {
+    background-color: $color-twelve;
+}
+
+section.content-of-book #carouselContentBook .carousel-indicators li.slide__content {
+    background-color: $color-elvven;
+}
+
+section.Request-book .gold-package button.btn-ux {
+    background-color: $color-elvven;
+    transition: all 0.5s ease;
+}
+
+section.Request-book .gold-package button.btn-ux:hover {
+    background-color: $color-twelve;
+}
+
+section.Request-book .anthor-package {
+    border: 3px inset $color-twelve;
+}
+
+section.FormContact .informations-contact span.font-icon svg, section.FormContact form .form-group label span.icon__ux svg {
+    color: $color-elvven;
+}
+
+section.FormContact form .form-group button.btn__ux {
+    background-color: $color-elvven;
+    transition: all 0.3s ease 0s;
+}
+
+section.FormContact form .form-group button.btn__ux:hover {
+    background-color: $color-twelve;
+}
+
+footer.footer__ux {
+    background-color: $color-elvven;
+}
+
+footer.footer_down .copyright p.copyright-BUX {
+    color: $color-five;
+}
+
+//// Color page Book-HTML5
+
+
+/***Style page HTML5-BOOK ****/
+
+header.top_header .add-to-card button.last-book {
+  background-color: $color-fourteen;
+  transition: all 0.5s ease 0s;
+}
+
+header.top_header .add-to-card button.last-book:hover,
+header.top_header .add-to-card button.last-book:active,
+header.top_header .add-to-card button.last-book:focus {
+  background-color: $color-fifteen;
+}
+
+section.About-The-Book .paragh__book p.last-book {
+  border-color: $color-fourteen;
+}
+
+section.last-book {
+  background-color: $color-fifteen;
+}
+
+section.content-of-book #carouselContentBook .carousel-indicators li.last__slide {
+  background-color: $color-fourteen;
+}
+
+section.Request-book .last-book {
+  border-color: $color-fourteen;
+}
+
+section.Request-book .gold-package button.last-book {
+  background-color: $color-fourteen;
+  transition: all 0.5s ease;
+}
+
+section.Request-book .gold-package button.last-book:hover,
+section.Request-book .gold-package button.last-book:active,
+section.Request-book .gold-package button.last-book:active {
+  background-color: $color-fifteen;
+}
+
+section.FormContact .informations-contact span.last-book svg, 
+section.FormContact form .form-group label span.last-book svg {
+  color: $color-fourteen;
+}
+
+section.FormContact form .form-group button.last-book {
+  background-color: $color-fourteen;
+  transition: all 0.5s ease;
+}
+
+section.FormContact form .form-group button.last-book:hover,
+section.FormContact form .form-group button.last-book:active,
+section.FormContact form .form-group button.last-book:focus {
+  background-color: $color-fifteen;
+}
+
+footer.footer__last-book {
+  background-color: $color-fifteen;
+}
+
+footer.footer_down .copyright p a.last-book {
+  color: $color-three;
+}

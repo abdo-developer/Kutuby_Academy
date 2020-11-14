@@ -1,0 +1,73 @@
+
+/// ___ LastFooter ____
+
+section.last-footer {
+    background-image: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 14px;
+}
+  
+
+section.last-footer {
+
+    .title-LastFooter {
+        font-size: 22px;
+        color: antiquewhite;
+        border-bottom: 2px solid orange;
+        display: inline-block;
+        padding-bottom: 12px;
+        margin: 20px 33% 20px 0
+    }
+
+    .latest-tweets {
+
+        p.text-tweet {
+            color: white;
+        }
+        p.text-tweet svg {
+            color: orangered;
+            font-size: 18px;
+        }
+
+    }
+
+    .FormNewsLetters {
+
+        input {
+            height: 45px;
+            width: 260px;
+            text-align: right;
+            font-size: 15px;
+            margin-right: 90px;
+            border-radius: 0;
+            background-color: #d8d8d8;
+        }
+          
+        input:focus,
+        input:active {
+            border-color: orange;
+        }
+          
+        button {
+            border: transparent;
+            background-color: orange;
+            transition: all 0.2s ease;
+        }
+          
+        button:hover,
+        button:active,
+        button:focus {
+            background-color: orangered;
+        }
+    
+    }
+      
+    .NewsLatters p {
+        color: white;
+        font-size: 17px;
+    }
+            
+}
+

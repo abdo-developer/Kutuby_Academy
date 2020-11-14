@@ -1,0 +1,132 @@
+
+// ___FormContact _____  
+
+section.FormContact {
+
+    .title-contact h4 {
+        font-size: 22px;
+        margin: 20px 0;
+        border-bottom: 2px solid orange;
+        display: inline-block;
+        padding-bottom: 12px;
+        margin-right: 33%;
+    }
+
+    .informations-contact {
+        margin-right: 25px;
+        margin-top: 12px;
+    }
+      
+    .icons-informations svg {
+        font-size: 24px;
+        margin-left: 14px;
+        margin-top: 12px;
+        text-decoration: none;
+        color: orangered;
+    }
+
+    .icons-informations span.content {
+        font-size: 16px;
+        color: black;
+    }
+      
+    .icons-informations a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+      
+    .icons-informations a:hover,
+    .icons-informations a:active,
+    .icons-informations a:focus {
+        color: orange;
+    }
+
+    form {
+
+        .form-group label {
+            font-size: 18px;
+        }
+          
+        .form-group label svg {
+            color: orangered;
+            margin-left: 5px;
+        }
+          
+        .form-group .form-control {
+            text-align: right;
+            font-size: 15px;
+        }  
+        
+        .form-group label span svg {
+            color: teal;
+        }
+          
+        .informations-contact span.font-icon svg {
+            color: teal;
+        }
+          
+        .form-group button.BtnLanding {
+            background-color: teal;
+            color: white;
+            transition: all 0.5s ease 0s;
+        }
+          
+        .form-group button.BtnLanding:hover,
+        .form-group button.BtnLanding:active,
+        .form-group button.BtnLanding:focus {
+            background-color: rgba(0, 128, 128, 0.9);
+        }
+        
+        .form-group button.BtnLanding svg {
+            color: wheat;
+        }
+
+        .form-group button.btn__ux {
+            background-color: #80401A;
+            transition: all 0.3s ease 0s;
+        }
+          
+        .form-group button.btn__ux:hover {
+            background-color: #582203;
+        }
+
+        .form-group button.last-book {
+            background-color: #f16529;
+            transition: all 0.5s ease;
+        }
+    
+        .form-group button.last-book:hover,
+        .form-group button.last-book:active,
+        .form-group button.last-book:focus {
+            background-color: #be3900;
+        }
+
+    } 
+
+    .title-contact h5 {
+        border-bottom: 2px solid teal;
+        margin: 30px 0;
+        padding-bottom: 12px;
+        display: inline-block;
+        margin: 20px 33% 20px 0;
+    }
+      
+    .title-contact h4.title2x {
+        border-bottom: 2px solid teal;
+    }
+
+    .informations-contact span.font-icon svg, 
+    form .form-group label span.icon__ux svg {
+    color: #80401A;
+    }
+
+    .informations-contact span.last-book svg, 
+    form .form-group label span.last-book svg {
+    color: #f16529;
+    }
+
+}
+
+
